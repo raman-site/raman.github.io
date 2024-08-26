@@ -1,0 +1,144 @@
+/* 일반 스타일 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+@font-face {
+    font-family: 'Kaushan Script';
+    src: url('c:\\Users\\yooyh\\OneDrive\\바탕 화면\\html\\Kaushan_Script\\KaushanScript-Regular.woff') format('woff'),
+         url('c:\\Users\\yooyh\\OneDrive\\바탕 화면\\html\\Kaushan_Script\\AnyConv.com__KaushanScript-Regular.woff2') format('woff2');
+    /* 다양한 폰트 포맷에 대한 지원을 위해 여러 파일 경로 지정 가능 */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yeon Sung';
+    src: url('c:\\Users\\yooyh\\OneDrive\\바탕 화면\\html\\Yeon_Sung\\YeonSung-Regular.woff') format('woff'),
+         url('c:\\Users\\yooyh\\OneDrive\\바탕 화면\\html\\Yeon_Sungf\\AnyConv.com__YeonSung-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    background-color: #6c96FA;
+    color: #fff;
+    padding: 10px 20px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer p {
+    margin: 0 10px; /* 좌우 여백을 조절하려면 이 값을 조정하세요 */
+}
+nav {
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    height: 100vh;
+    padding: 20px;
+    background-image: none;
+}
+
+#section1 {
+    background-image: url('c:\\Users\\yooyh\\OneDrive\\바탕 화면\\html\\라만2.jpeg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#section1 .profile-picture {
+    position: relative;
+    z-index: 1;
+    left:-20%;
+    font-size: 15vw;
+    
+}
+
+#section1 .profile-picture span {
+    font-weight: bold;
+    color: #fff;
+}
+
+#section1 .raman span {
+  font-family: 'Kaushan Script';
+}
+
+#section2 {
+    background-image: url('c:\\Users\\yooyh\\OneDrive\\바탕 화면\\html\\라만1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* 이미지 로딩 전 백그라운드 색상을 흰색으로 설정 */
+    background-color: #fff;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vw;
+    padding-top: 20px;
+
+}
+
+.profile-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Yeon Sung";
+}
+
+#section2 {
+    font-size: 5vw;
+}
+.profile-title{
+    font-size: 5vw;
+}
+.profile-info {
+    text-align: left;
+    margin-top: 5px;
+    position: relative;
+    z-index: 1;
+    left: 50%;
+    line-height: 90%;
+}
+
+#d-day {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #6c96FA;
+    color: #fff;
+    text-align: center;
+    padding: 1vw;
+}
+
